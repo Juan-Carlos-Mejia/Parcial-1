@@ -31,7 +31,7 @@ public class RecibirDatos extends AppCompatActivity {
         estado = Integer.parseInt(edad);
 
         if(estado < 18){
-            Estado.setText("Eres meno de edad");
+            Estado.setText("Eres menor de edad");
         }
         else{
             Estado.setText("Eres mayor de edad");
