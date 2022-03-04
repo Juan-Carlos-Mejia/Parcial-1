@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.parcial1">
+
+    <dist:module dist:instant="true" />
+
+    <uses-feature android:name="android.hardware.sensor.proximity" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Parcial1">
+        <activity
+            android:name=".Tabs"
+            android:exported="false" />
+        <activity
+            android:name=".AcercaDe"
+            android:exported="false" />
+        <activity
+            android:name=".ReproductorDeMusica"
+            android:exported="false" />
+        <activity
+            android:name=".Acelerometro"
+            android:exported="false" />
+        <activity
+            android:name=".SensorDeProximidad"
+            android:exported="false" />
+        <activity
+            android:name=".RecibirDatos"
+            android:exported="false" />
+        <activity
+            android:name=".EnviarDatos"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

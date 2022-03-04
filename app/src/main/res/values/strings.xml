@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Parcial 1</string>
+    <string name="btnmenu">Menú</string>
+    //Bienvenida
+    <string name="bienvenida">Bienvenidos</string>
+    <string name="bienvenida1">Parcial I Computo I Programación II</string>
+    <string name="bienvenida2">Hecho por Juan Carlos Mejía Morales. USIS002221</string>
+    <string name="bienvenida3">Clic en el botón para ingresar al menú</string>
+    //Menu principal
+    <string name="titulomenu">Menú principal</string>
+    <string name="btn1">Envio de Datos</string>
+    <string name="btn2">Tabs</string>
+    <string name="btn3">Sensor de Proximidad</string>
+    <string name="btn4">Acelerometro</string>
+    <string name="btn5">Reproductor de Música</string>
+    <string name="btn6">Acerca de la App</string>
+    //enviar datos y recibir datos
+    <string name="titulo2">DETERMINAR SI ES MAYOR DE EDAD</string>
+    <string name="nombres">Escriba su nombre</string>
+    <string name="edad">Escriba su edad</string>
+    <string name="enviarDatos">ENVIAR DATOS</string>
+    <string name="volver">PANTALLA ANTERIOR</string>
+    <string name="regresar">REGRESAR AL MENU PRINCIPAL</string>
+    //tabs
+    <string name="windows">windows</string>
+    <string name="Linux">Linux</string>
+    <string name="Mac">mac</string>
+    //fragment mac
+    <string name="tvMac">Sistema Operativo Mac</string>
+    <string name="infmac">Mac OS automatiza las tareas repetitivas, además, este sistema operativo tiene la peculiaridad de ser potente, al soportar el uso excesivo, por lo que es ideal en empresas y usuarios que requieran de software avanzado y libre de fallos. La seguridad y privacidad que ofrece Mac OS no tiene comparación con las de otras marcas.</string>
+    //fragment windows
+    <string name="tvwindows">sistema operativo windows</string>
+    <string name="infwindows">Windows es el nombre de una familia de distribuciones de software para PC, servidores, sistemas empotrados y antiguamente teléfonos inteligentes desarrollados y vendidos por Microsoft y disponibles para múltiples arquitecturas, tales como x86, x86–64 (x64) y ARM.</string>
+    <string name="caractwindows">Características: 1) Interfaz de usuario gráfica (mayor información y más asequible). 2) Multitarea (permite ejecutar varias aplicaciones al mismo tiempo). 3) Posibilidad de integrar recursos multimedia (textos, imagen y sonido). 4) Herramienta para el trabajo en red, transmisión de información y comunicación entre usuarios.</string>
+    //fragment linux
+    <string name="tvlinux">Sistema operativo Linux</string>
+    <string name="inflinux">Una distribución GNU/Linux es una distribución de software basada en el núcleo Linux que incluye determinados paquetes de software para satisfacer las necesidades de un grupo específico de usuarios, dando así origen a ediciones domésticas, empresariales y para servidores. Por lo general están compuestas, total o mayoritariamente, de software libre, aunque a menudo incorporan aplicaciones o controladores propietarios.</string>
+    <string name="caratlinux">Características de Linux: Linux es un sistema operativo de núcleo libre que está basado en Unix. Este último es a su vez un sistema operativo portable, multiusuario y multiárea. Linux es un sistema operativo que es considerado por muchos como uno de los mejores ejemplos del denominado software libre y de código abierto.</string>
+    //Sensor de proximidad
+    <string name="tvSensorPro">Sensor de proximidad</string>
+    //acelerometro
+    <string name="tvSensorAcele">Sensor Acelerometro</string>
+    //Reproductor de musica
+    <string name="Reproductor">Reproductor de música</string>
+    //Acerca de
+    <string name="tituacerca">ACERCA DE</string>
+    <string name="Acerca">La presente aplicacion llamada Parcial 1 es una recopilación de las actividades que hemos realizado a lo largo del computo 1 la cual contiene un envio de datos, un menu tabs, un sensor de proximidad, un sensor de Aceleración, un reproductor de audio, se ha hecho siguiendo las guias aportadas en clase tiene un diseño simple que facilita la movilidad del usuario con una paleta de colores agradables a la vista.</string>
+    <string name="hecho">Realizado por el estudiante: Juan Carlos Mejía. En el año 2022</string>
+
+
+</resources>
