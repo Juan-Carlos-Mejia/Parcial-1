@@ -2,6 +2,7 @@ package com.example.parcial1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.hardware.Sensor;
@@ -41,6 +42,7 @@ public class SensorDeProximidad extends AppCompatActivity {
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
         if(sensor==null)finish();
         sensorEventListener = new SensorEventListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onSensorChanged(SensorEvent sensorEvent) {
                 if(sensorEvent.values[0] < sensor.getMaximumRange()){
